@@ -33,6 +33,7 @@ Joris Oud
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
 }
 
 .searchbar{
@@ -43,6 +44,9 @@ Joris Oud
     height: 40px;
     width: 600px;
     border-width: 1px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
 }
 
 .submit_container {
@@ -61,13 +65,20 @@ Joris Oud
     color: blue;
     font-family: Arial, sans-serif;
     text-align: center;
-    transform: translate(100px,-40px);
+    transform: translate(95px,-95px);
+}
+
+#image_search_container {
+    transform: translate(0,-32px);
+}
+
+#adv_google_logo {
+    width: 150px;
 }
 
 #adv_search_title {
-    margin-left: 30px;
-    margin-top: 80px;
-    color: red;
+    margin-left: 35px;
+    color: #d93025;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -94,8 +105,8 @@ table tr th,td {
 #as_button {
     height: 30px;
     width: 120px;
-    border-width: 0px;
-    background-color: blue;
+    border: 1px;
+    background-color: #4d90fe;
     color: white;
     font-size: 12px;
 }
