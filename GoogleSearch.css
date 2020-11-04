@@ -1,0 +1,105 @@
+/*
+GoogleSearch.css
+
+Programmeerplatform
+Joris Oud
+
+- Provides the css code for several google search pages
+*/
+
+.link_container {
+    float: right;
+}
+
+.link_button {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.search_container {
+    height: 250px;
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 200px;
+    transform: translate(-50%)
+}
+
+.google_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchbar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
+    height: 40px;
+    width: 600px;
+    border-width: 1px;
+}
+
+.submit_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    border-width: 0px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#images_text {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transform: translate(100px,-40px);
+}
+
+#adv_search_title {
+    margin-left: 30px;
+    margin-top: 80px;
+    color: red;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+table tr th,td {
+    padding-bottom: 10px;
+    padding-right: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.advanced_searchbar {
+    width: 600px;
+    height: 25px;
+}
+
+#as_button {
+    height: 30px;
+    width: 120px;
+    border-width: 0px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+}
+
+#as_button_cell {
+    text-align: end;
+}

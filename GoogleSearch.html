@@ -1,0 +1,36 @@
+<!--
+GoogleSearch.html
+
+Programmeerplatform
+Joris Oud
+
+- Implements a the front end of the google search page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="GoogleSearch.css">
+    </head>
+
+    <body>
+        <div class=link_container>
+            <a class=link_button href="GoogleImageSearch.html">Image Search</a>
+            <a class=link_button href="GoogleAdvancedSearch.html">Advanced Search</a>
+        </div>
+        
+        <div class="search_container">
+            <img class="google_logo" src="google.png" alt=Google width="300">
+            <br>
+            <form action="https://google.com/search">
+                <input class="searchbar" type="text" name="q">
+                <br>
+                <div class="submit_container">
+                    <input class="submit" type="submit" value="Google Search">
+                    <input class="submit" name="btnI" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
